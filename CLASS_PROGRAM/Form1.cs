@@ -20,8 +20,8 @@ namespace CLASS_PROGRAM
         private void button1_Click(object sender, EventArgs e)
         {
             Calculation ob1 = new Calculation();
-            ob1.a = 10;
-            ob1.b = 20;
+            ob1.a = 40;
+            ob1.b = 50;
             ob1.display();
             textBox1.Text = ob1.res.ToString();
         }
